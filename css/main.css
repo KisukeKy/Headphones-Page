@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+@import "landing-page/design-by.css";
+@import "landing-page/color-collection.css";
+@import "landing-page/blue-print.css";
+@import "landing-page/latest.css";
+@import "landing-page/footer.css";
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.container-fluid{
+    margin: 0 1.5%;
+    padding: 0 20px;
+    
+}
+
+
+.box-shadow-down{
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.4);
+    box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.4);
+}
+
+.box-shadow-center{
+    -webkit-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+    -moz-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+    box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+}
+input::placeholder{
+    color: #d5e2ea;
+}
+/*laptop devices*/
+@media only screen and (max-width: 1215px){
+    body{
+        
+    }
+}
+/*tablets devices*/
+@media only screen and (max-width: 1023px){
+    body{
+        
+    }
+}
+/*mobile devices*/
+@media only screen and (max-width:767px){
+    body{
+        
+    }
+}
